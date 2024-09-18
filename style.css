@@ -18,3 +18,9 @@
 .buttons:hover{
     background-color: hsl(120, 93%, 12%);
 }
+
+@media (max-width: 768px){
+    body{
+        touch-action: none;
+    }
+}
